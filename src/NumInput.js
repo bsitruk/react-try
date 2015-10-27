@@ -18,9 +18,6 @@ export class NumInput extends Component {
     label: '',
     type: 'number'
   }
-  constructor(props) {
-    super(props);
-  }
   render() {
     var label = this.props.label !== '' ?
       <label>{this.props.label} {this.props.val}</label> : '';
