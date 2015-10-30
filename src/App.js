@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NumInput } from './NumInput';
+import MyComponent from './MyComponent';
 
 export class App extends Component {
   state = {
@@ -22,6 +23,7 @@ export class App extends Component {
           type="range"
           label="Red"
           update={this.update} />
+          <MyComponent />
       </div>
     );
   }
